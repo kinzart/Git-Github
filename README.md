@@ -7,7 +7,7 @@ criar repositorio:
      git init
         
 
-criando branch, trabalhando fora da master:
+criando branch, criando um clone para trabalhar fora da master:
 
      git checkout -b nome-do-branch
       
