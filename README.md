@@ -120,6 +120,30 @@ vizualizar historico de um arquivo:
 
      git log -p nome-arquivo
      
+
+historico de commits nas branchs:
+
+     git log --all --decorate --oneline --graph
      
      
+todos os commits
+
+     git reflog
      
+     
+voltar para o commit (de marcação 1 por exemplo)
+
+     git reset HEAD@{1}
+     
+     
+se caso igual eu, voce ja deletou algo que queira restaurar de um commit, apos voltar ao commit:
+
+          git status
+          
+restaurar um arquivo:
+     
+          git restore nome-arquivo
+          
+restaurar todos arquivos desse commit:
+
+          git restore .
