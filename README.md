@@ -2,11 +2,74 @@
 Comandos e estrategias
 
 
-criar repositorio:
+          git --help
+
+
+
+ajuda por html: (ex: comando "merge")
+     
+     
+          git help merge
+
+
+
+configurações:
+
+
+         git config --global user.name "Seu nome e sobrenome"
+         
+         
+         
+         git config --global user.email "seuemail@email.com"
+         
+         
+         
+         git congig --global color.ui true
+
+
+
+
+para vizualizar configurações: 
+
+
+          git config --list
+          
+          
+          git config user.name
+          
+          
+          git config user.email
+
+
+
+
+vizualizar mudanças por author:
+
+
+         git log --author="nome"
+         
+         
+
+
+criar repositorio (uma pasta oculta git):
 
 
      git init
         
+
+vizualizar mudanças e monitoramentos (o que esta dentro do git, estara em copias de segurança):
+
+
+     git status
+
+
+verificar o que foi codificado até o momento (vai mostrar os codigos que voce escreveu desde de o ultimo commit):
+
+
+     git diff
+
+
+
 
 criando branch, criando um clone para trabalhar fora da master:
 
@@ -60,7 +123,7 @@ adicionando apenas determinada operação em um arquivo:
     
     
     
-concluindo as alterações (CHECKPOINT) aqui onde selecionamos um nome para o checkpoint:
+concluindo as alterações (CHECKPOINT) aqui onde selecionamos uma descrição para o checkpoint:
 
 
     git commit -m "alteração 1"
