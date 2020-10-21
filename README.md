@@ -171,7 +171,25 @@ concluindo alterações:
 
      git commit -m "concluindo a mesclagem com new-branch"
      
+
+para alterar a mensagem do commit:
+
+
+     git commit --amend
      
+     
+movendo arquivos para uma pasta:
+
+         
+     git mv arquivo.ex pasta-qual
+     
+movendo e renomeando:
+
+
+    git mv arquivo.ex pasta-qual/arquivo-novo-nome
+    
+
+
 subindo o repositorio master para o github
 
      
