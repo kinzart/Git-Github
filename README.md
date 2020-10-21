@@ -70,6 +70,14 @@ verificar o que foi codificado até o momento (vai mostrar os codigos que voce e
 
 
 
+verificar alterações apenas de um determinado arquivo:
+
+
+     git diff arquivo.ex
+
+
+
+
 
 criando branch, criando um clone para trabalhar fora da master:
 
@@ -210,3 +218,11 @@ restaurar um arquivo:
 restaurar todos arquivos desse commit:
 
           git restore .
+
+
+
+remover arquivo, remover do diretorio e depois remover do repositorio git:
+          
+          rm arquivo.ex
+          
+          git rm arquivo.ex
