@@ -362,4 +362,27 @@ vizualizar um grafico de ponteiros entre branch:
           git log --graph --oneline --decorate --all
 
           
-           
+comparando arquivos de duas branchs:
+
+
+          git diff master..nova-branch
+          
+          
+renomear uma branch:
+
+
+          git branch --move nova-branch novo-nome
+          
+          
+remover branch (só remove se estiver fora dela):
+
+
+          git branch -d nome-branch
+          
+
+se caso esteja impedido de remover por alguma alteração sem commit:
+
+
+          git branch -D nome-branch
+
+
