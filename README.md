@@ -244,3 +244,73 @@ remover arquivo, remover do diretorio e depois remover do repositorio git:
           rm arquivo.ex
           
           git rm arquivo.ex
+
+
+
+
+<h3>DESFAZENDO</h3>
+
+restaurar ultimo commit do arquivo: ("--" branch atual)
+
+          git checkout -- arquivo.ex
+          
+
+vizualizar restauração:
+
+          
+          cat arquivo.ex
+          
+          
+
+refazer commit:
+
+
+          git commit --amend -m "refazendo commit"
+          
+          
+limpar pasta de arquivos nao adicionados na unstage area:
+
+          git clean -n
+          
+          git clean -f
+
+
+recuperando um estado especifico de um arquivo:
+          
+          git log
+
+
+depois digite o codigo inicial da chave do commit
+ex:
+
+          git checkout 0b4df42 -- nome-arquivo.ext
+          
+          
+          
+          
+<h3>RESET</h3>
+atenção! reset muda seu ponteiro HEAD para um commit anterior
+
+git log para listar
+
+
+retrornar para commit especifico:
+
+
+          git reset --soft 0a1b2c
+          
+
+retornar para commit especifico, sincronizando:
+
+          
+          git reset --mixed 0a1b2c
+          
+          
+retornar para um commit especifico e apagar os que veio depois dele:
+
+          git reset --hard 0a1b2c
+          
+ 
+ 
+ 
+
