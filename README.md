@@ -49,6 +49,10 @@ vizualizar mudanças por author:
          git log --author="nome"
          
          
+vizualizar mudanças em uma linha por commit:
+
+
+          git log --oneline
 
 
 criar repositorio (uma pasta oculta git):
@@ -313,4 +317,49 @@ retornar para um commit especifico e apagar os que veio depois dele:
  
  
  
+ <h3>BRANCH</h3>
+ 
+ 
+ Mostrar branchs
+ 
+          git branch
+          
+          
+ criar nova branch:
+ 
+          git branch nova-branch
+ 
+ 
+criar e migrar para uma nova branch:
 
+
+          git checkout -b nova-branch
+          
+ 
+
+listar e confirmar:
+
+          ls -la .git/refs/heads
+
+
+vizualizar a HEAD
+
+          cat .git/refs/heads/nova-branch
+          
+           cat .git/HEAD
+           
+
+
+vizualizar alterações entre branchs
+
+          git show HEAD
+          
+          
+          
+vizualizar um grafico de ponteiros entre branch:
+
+
+          git log --graph --oneline --decorate --all
+
+          
+           
