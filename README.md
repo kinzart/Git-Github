@@ -468,6 +468,28 @@ baixar a branch remota para dentro de sua master local:
           git fetch origin
           
           
+ na sequencia após baixar a master remota, vamos sincronizar com master local, params(git merge nome-repo/branch branch-local):
+ 
+ 
+          git merge origin/master master
+          
+          
+
+
+git fetch + git merge:
+
+
+          git pull origin/master
+  
+  
+  
+          
+baixar uma branch sem sincronismo do repositorio remoto e migrar:
+
+
+          git checkout -b branch-nova origin/branch-nova
+          
+          
           
           
           
