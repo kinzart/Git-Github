@@ -386,3 +386,33 @@ se caso esteja impedido de remover por alguma alteração sem commit:
           git branch -D nome-branch
 
 
+
+<h3>MERGE</h3>
+
+
+
+trazer alterações para mixar na master:
+
+
+          git merge nova-branch
+
+
+desfazer uma tentativa de merge:
+
+
+          git merge --abort
+          
+          
+ 
+ 
+ 
+<h3>GITHUB</h3>
+
+
+listar o repositorio;
+
+          git remote
+          
+
+
+
