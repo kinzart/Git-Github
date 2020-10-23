@@ -490,6 +490,11 @@ baixar uma branch sem sincronismo do repositorio remoto e migrar:
           git checkout -b branch-nova origin/branch-nova
           
           
+
+subindo para uma branch não master params(git push nome-repo direcionamento(:) nome-branch):
+
+          git push origin :branch_nova
           
-          
-          
+
+
+
