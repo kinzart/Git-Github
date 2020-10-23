@@ -439,10 +439,12 @@ deletar repositorio remoto:
           git remote rm origin
           
 
-enviando arquivos para repositorio remoto, parametros(git push -u nome-repo branch)
+
+enviando arquivos para repositorio remoto, parametros(git push sincronismo nome-repo branch)
 
 
           git push -u origin master
           
           
-          
+
+
