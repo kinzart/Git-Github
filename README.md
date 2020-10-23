@@ -324,6 +324,9 @@ retornar para um commit especifico e apagar os que veio depois dele:
  
           git branch
           
+          git branch -r
+          
+          git branch -a
           
  criar nova branch:
  
@@ -445,6 +448,26 @@ enviando arquivos para repositorio remoto, parametros(git push sincronismo nome-
 
           git push -u origin master
           
+se sincronizado os repositorios, então para push:
+
+          git push
+          
           
 
 
+comparando repositorio remota com local:
+
+          
+          git diff origin/master..master
+
+
+
+baixar a branch remota para dentro de sua master local:
+
+
+          git fetch origin
+          
+          
+          
+          
+          
