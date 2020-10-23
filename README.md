@@ -411,8 +411,38 @@ desfazer uma tentativa de merge:
 
 listar o repositorio;
 
+
           git remote
           
 
 
 
+adicionando um repositorio criado no github ao git (origin = pode ser qqr nome), (https:// = path que o seu repositorio apresenta): 
+
+
+          git remote add origin https://github.com/kinzart/git-github.git
+          
+          
+vizualizar repositorio remoto para push ou para download(fetch)
+
+
+          git remote -v
+
+
+          cat .git/config
+          
+          
+
+deletar repositorio remoto:
+
+
+          git remote rm origin
+          
+
+enviando arquivos para repositorio remoto, parametros(git push -u nome-repo branch)
+
+
+          git push -u origin master
+          
+          
+          
